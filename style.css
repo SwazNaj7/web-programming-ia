@@ -356,6 +356,7 @@ body {
     border-radius: 12px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .hero-section h2 {
@@ -363,7 +364,6 @@ body {
     text-align: center;
     margin-bottom: 30px;
     font-size: 2em;
-    border-bottom: 3px solid #3498db;
     padding-bottom: 15px;
 }
 
@@ -395,4 +395,107 @@ footer {
     text-align: center;
     background-color: #ffffff;
     padding: 10px;
+}
+
+/* Personal Development Page Styles */
+.development-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.8);
+    transition: transform 0.3s ease;
+}
+
+.development-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.chapter-card {
+    padding: 30px;
+    margin-bottom: 25px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border: 1px solid #3aaaf5;
+}
+
+.chapter-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.15);
+}
+
+.chapter-card:last-child {
+    margin-bottom: 0;
+}
+
+.chapter-heading {
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.chapter-subheading {
+    color: #34495e;
+    font-size: 1.3em;
+    margin: 20px 0 10px 0;
+    font-weight: 500;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+.chapter-text {
+    color: #34495e;
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.hero-image-container {
+    text-align: center;
+}
+
+.hero-image {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-right: auto;
+}
+
+.hero-image:hover {
+    transform: scale(1.05);
+}
+
+.twelve-pillars-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twelve-pillars-image {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.twelve-pillars-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.2);
 }
