@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat', 'Lato', 'Open Sans', sans-serif;
 }
 
@@ -29,6 +30,13 @@ body {
     background-repeat: no-repeat;
 }
 
+.demographic-data ul {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 15px;
+    list-style-type: none;
+}
+
 .navbar ul {
     list-style-type: none;
     background-color: #ffffff;
@@ -38,7 +46,9 @@ body {
 }
 
 .navbar ul a {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #005ea1;
     padding: 20px;
     text-decoration: none;
@@ -498,4 +508,25 @@ footer {
 .twelve-pillars-image:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(52, 152, 219, 0.2);
+}
+
+#linkedin-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.back-to-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 200px;
+    text-decoration: none;
+    background: #30afee;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
 }
