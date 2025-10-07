@@ -77,13 +77,12 @@ body {
 
 .header-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    max-width: 1300px;
     margin: 20px;
-    max-width: 1200px;
     margin: 20px auto;
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.8);
@@ -99,10 +98,6 @@ body {
     margin-bottom: 15px;
     font-weight: 600;
     padding-right: 10px;
-}
-
-.image-container {
-    flex-shrink: 0;
 }
 
 .portfolio-image {
@@ -129,7 +124,6 @@ body {
 
 .card-section {
     background: rgba(255, 255, 255, 0.95);
-    flex: 1;
     min-width: 300px;
     max-width: 150px;
     padding: 30px;
@@ -191,7 +185,6 @@ body {
 
 .resume-table {
     width: 100%;
-    border-collapse: collapse;
     margin-top: 20px;
 }
 
@@ -237,7 +230,9 @@ body {
 }
 
 .statement-card {
-    flex: 1;
+    margin: auto;
+    min-height: 300px;
+    max-width: 500px;
     min-width: 300px;
     padding: 30px;
     background: rgba(255, 255, 255, 0.95);
@@ -326,12 +321,7 @@ body {
     gap: 30px;
 }
 
-.trait-text {
-    flex: 2;
-}
-
 .trait-image {
-    flex: 1;
     max-width: 200px;
 }
 
@@ -350,6 +340,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    margin-right: 200px;
 }
 
 .hobby-image:hover {
